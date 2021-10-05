@@ -1,0 +1,82 @@
+:root{
+  --primary: rgb(82, 82, 163);
+}
+
+.blue{
+  background-color: var(--primary);
+}
+
+body{
+  margin: 0;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.mg-1{
+  margin: -.5em;
+  margin-top: -1.5em;
+}
+
+header{
+  background-color: var(--primary);
+  color:white;
+  display: Flex;
+  padding: 1em;
+  justify-content: center;
+}
+
+main{
+  padding: 1em;
+}
+
+.mg-2{
+  margin-left:15em;
+}
+
+.mg-3{
+  margin-left:5em;
+}
+
+.mg-4{
+  margin-right:10em;
+}
+
+.mg-6{
+  margin-left:15em;
+}
+
+.mg-7{
+  margin-top:4em;
+}
+
+.center{
+  text-align: center;
+}
+
+.left{
+  text-align:left;
+  font-size:14px;
+}
+
+.largefont{
+  font-size:35px;
+}
+
+.footer{
+  height:15vh;
+  background-color: var(--primary);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.widthadjust{
+  width:7em;
+}
+
+.widthadjust2{
+  width:22em;
+  margin-left:1em;
+}
